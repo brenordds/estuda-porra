@@ -1,0 +1,1 @@
+- perseguir um fluxo de uma anotacao de spring e ver com funciona por baixo dos panos

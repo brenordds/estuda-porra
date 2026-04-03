@@ -1,0 +1,2 @@
+- System design interview: https://bytes.usc.edu/~saty/courses/docs/data/SystemDesignInterview.pdf
+- Java concurrency in pratice: https://ptgmedia.pearsoncmg.com/images/9780321349606/samplepages/9780321349606.pdf
