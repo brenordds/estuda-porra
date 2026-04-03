@@ -37,24 +37,24 @@
 
 **Dias úteis (5 × 1h30):**
 
-- [ ] **Dia 1:** Leia o capítulo 1 do *System Design Interview* (Alex Xu). Depois, tente desenhar do zero a arquitetura do Instagram. Não pesquise — use o que você já sabe.
+- [x] **Dia 1:** Leia o capítulo 1 do *System Design Interview* (Alex Xu). Depois, tente desenhar do zero a arquitetura do Instagram. Não pesquise — use o que você já sabe.
   > ✅ *Resultado esperado:* Você consegue esboçar um diagrama com pelo menos 5 componentes (load balancer, API, DB, cache, storage) e identificar onde seu raciocínio teve lacunas — sem consultar nada.
 
-- [ ] **Dia 2:** Revise JVM internals em alto nível: heap vs stack, GC generations, ClassLoader. Escreva uma "cheat sheet" de 1 página com suas palavras.
+- [x] **Dia 2:** Revise JVM internals em alto nível: heap vs stack, GC generations, ClassLoader. Escreva uma "cheat sheet" de 1 página com suas palavras.
   > ✅ *Resultado esperado:* Você consegue explicar em 60 segundos o que acontece na memória quando um objeto é criado, usado e coletado pelo GC — sem travar, sem recorrer à cheat sheet.
 
 - [ ] **Dia 3:** Resolva 3 problemas LeetCode nível Easy (Arrays/Strings). Foque em *verbalizar* cada passo em voz alta enquanto resolve.
   > ✅ *Resultado esperado:* Você completa os 3 problemas verbalizando sem silêncio prolongado. Mesmo errando a solução ótima, o raciocínio em voz alta fluiu sem pausas constrangedoras.
 
-- [ ] **Dia 4:** Revise seu próprio CV. Para cada projeto, prepare uma resposta no formato STAR (Situação, Tarefa, Ação, Resultado) de 90 segundos. Grave e ouça.
+- [x] **Dia 4:** Revise seu próprio CV. Para cada projeto, prepare uma resposta no formato STAR (Situação, Tarefa, Ação, Resultado) de 90 segundos. Grave e ouça.
   > ✅ *Resultado esperado:* Você tem ao menos 3 histórias STAR prontas, cada uma com menos de 2 minutos, que soam naturais e não genéricas. Ao ouvir a gravação, você não se sente travado nem vago.
 
-- [ ] **Dia 5:** Revise HashMap internals em Java (hashing, colisões, load factor, resize). Explique em voz alta como se estivesse em entrevista.
+- [x] **Dia 5:** Revise HashMap internals em Java (hashing, colisões, load factor, resize). Explique em voz alta como se estivesse em entrevista.
   > ✅ *Resultado esperado:* Você consegue responder "Como o HashMap funciona internamente?" de forma fluida, cobrindo hash function, bucket array, linked list/tree em colisão e o que dispara o resize — sem consultar nada.
 
 **Fim de semana (3h):**
 
-- [ ] **1h:** Leia sobre o framework de system design (seção abaixo). Anote o checklist.
+- [x] **1h:** Leia sobre o framework de system design (seção abaixo). Anote o checklist.
   > ✅ *Resultado esperado:* O framework de 5 etapas está anotado com suas palavras e você consegue recitá-lo de memória na ordem correta.
 
 - [ ] **1h:** Mock interview pessoal: abra um timer, pegue uma pergunta de system design (ex: "Design a URL shortener") e resolva em 45 min falando em voz alta.
@@ -79,19 +79,19 @@
 
 **Dias úteis (5 × 1h30):**
 
-- [ ] **Dia 1:** **Concorrência Parte 1** — `synchronized`, `volatile`, `happens-before`. Escreva 2 exemplos de race conditions e corrija-os.
+- [x] **Dia 1:** **Concorrência Parte 1** — `synchronized`, `volatile`, `happens-before`. Escreva 2 exemplos de race conditions e corrija-os.
   > ✅ *Resultado esperado:* Você consegue escrever um exemplo de race condition real (sem copiar), explicar por que o problema ocorre e mostrar a correção com `synchronized` ou `volatile` — sabendo qual usar em cada caso.
 
-- [ ] **Dia 2:** **Concorrência Parte 2** — `ExecutorService`, `Future`, `CompletableFuture`. Implemente um exemplo real: chamar 3 APIs em paralelo e agregar resultado.
+- [x] **Dia 2:** **Concorrência Parte 2** — `ExecutorService`, `Future`, `CompletableFuture`. Implemente um exemplo real: chamar 3 APIs em paralelo e agregar resultado.
   > ✅ *Resultado esperado:* Você tem um código funcional de chamadas paralelas com `CompletableFuture.allOf()` e consegue explicar cada linha — incluindo o que acontece se uma das chamadas falhar.
 
-- [ ] **Dia 3:** **Concorrência Parte 3** — `ReentrantLock`, `Semaphore`, `CountDownLatch`, `CyclicBarrier`. Quando usar cada um? Prepare respostas de 60s para cada.
+- [x] **Dia 3:** **Concorrência Parte 3** — `ReentrantLock`, `Semaphore`, `CountDownLatch`, `CyclicBarrier`. Quando usar cada um? Prepare respostas de 60s para cada.
   > ✅ *Resultado esperado:* Para cada uma das 4 primitivas, você consegue dar um caso de uso real de produção em 60 segundos — sem hesitar nem confundir uma com a outra.
 
-- [ ] **Dia 4:** **Collections** — ArrayList vs LinkedList, HashMap vs ConcurrentHashMap vs TreeMap. Por que ConcurrentHashMap não usa `synchronized` no objeto inteiro?
+- [x] **Dia 4:** **Collections** — ArrayList vs LinkedList, HashMap vs ConcurrentHashMap vs TreeMap. Por que ConcurrentHashMap não usa `synchronized` no objeto inteiro?
   > ✅ *Resultado esperado:* Você consegue responder "Qual Collection usar para X?" de forma justificada, incluindo a explicação de segment locking (Java 7) e CAS + bin locking (Java 8+) no ConcurrentHashMap.
 
-- [ ] **Dia 5:** **Generics + Streams** — `Comparable` vs `Comparator`, uso de `Stream`, `Optional`. Resolva 3 exercícios de transformação de dados com Streams.
+- [x] **Dia 5:** **Generics + Streams** — `Comparable` vs `Comparator`, uso de `Stream`, `Optional`. Resolva 3 exercícios de transformação de dados com Streams.
   > ✅ *Resultado esperado:* Você resolve os 3 exercícios de Streams sem consultar documentação e consegue explicar a diferença entre operações intermediárias e terminais — e por que Streams são lazy.
 
 **Fim de semana (4h):**
@@ -99,10 +99,10 @@
 - [ ] **1h30:** LeetCode — 2 problemas Medium (Two Pointers ou Sliding Window). Verbalize cada etapa.
   > ✅ *Resultado esperado:* Você resolve ao menos 1 dos 2 problemas sem consultar solução, verbalizando continuamente. Se travou, sabe nomear exatamente onde e por quê.
 
-- [ ] **1h:** System design — "Design a Rate Limiter". Resolva seguindo o framework (seção abaixo).
+- [x] **1h:** System design — "Design a Rate Limiter". Resolva seguindo o framework (seção abaixo).
   > ✅ *Resultado esperado:* Você passou pelas 5 etapas do framework, escolheu um algoritmo (Token Bucket ou Sliding Window Counter) e consegue justificar a escolha com trade-offs.
 
-- [ ] **1h30:** Crie flashcards para todos os conceitos desta semana (Anki ou papel).
+- [x] **1h30:** Crie flashcards para todos os conceitos desta semana (Anki ou papel).
   > ✅ *Resultado esperado:* Você tem ao menos 15 flashcards criados com suas próprias palavras — e já testou a si mesmo neles antes de terminar a sessão.
 
 #### Materiais
